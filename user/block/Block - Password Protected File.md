@@ -1,3 +1,13 @@
+# Block - Password Protected File
+## Purpose
+Block notification to be shown when a user attempts to upload/download a password protected (or encrypted) file.
+
+Note: You should change `OneDrive` in the subtitle to reference the company's sanctioned file sharing service if different, eg: GDrive, Dropbox.
+
+## Preview
+TBA
+
+## Configuration
 Template Name:
 ```
 Block - Password Protected File
