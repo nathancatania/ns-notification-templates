@@ -10,7 +10,9 @@ This notification is typically used when targeting the categories:
 
 
 ## Preview
-TBA
+![preview](https://i.imgur.com/27pQCg1.png)
+
+---
 
 ## Configuration
 Template Name:
@@ -87,5 +89,5 @@ Redirect_URL_Flag: False
 Redirect_URL: None
 ```
 
-Configuration Screenshot:
-TBA
+## Configuration Screenshot:
+![config](https://i.imgur.com/8e1XTDX.png)
