@@ -5,7 +5,7 @@ Block notification to be shown when a user attempts to upload/download a passwor
 Note: You should change `OneDrive` in the subtitle to reference the company's sanctioned file sharing service if different, eg: GDrive, Dropbox.
 
 ## Preview
-TBA
+![preview](https://i.imgur.com/3AMXfQC.png)
 
 ## Configuration
 Template Name:
@@ -25,7 +25,7 @@ Stripe Color:
 
 Title:
 ```
-Blocked. This file is protected.
+Blocked. This file is locked and can't be shared.
 ```
 
 Subtitle:
@@ -63,8 +63,5 @@ Redirect_URL_Flag: False
 Redirect_URL: None
 ```
 
-Preview:
-TBA
-
-Configuration Screenshot:
-TBA
+## Configuration Screenshot:
+![config](https://i.imgur.com/zqoalHj.png)
