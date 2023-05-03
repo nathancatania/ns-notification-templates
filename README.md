@@ -73,7 +73,7 @@ The logo/image used can be set on a per-notification basis. For example, it can 
 
 Additional Logos and imagry can be uploaded under **Policy > Custom Image** (located underneath the _User Notification_ and _Email Notification_ menu options under the _Templates_ sub-heading).
 
-For more information on how to quickly customize a logo in different colors, see logo-customization.md.
+For more information on how to quickly customize a logo in different colors, see [Logo Customization](https://github.com/nathancatania/ns-notification-templates/blob/402d66b7f079a7d8971a64833f82fb085bae3e60/Logo%20Customization.md).
 
 ![set-additional-logos](https://i.imgur.com/vEhGUtv.png)
 
