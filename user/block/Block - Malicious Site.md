@@ -1,3 +1,19 @@
+# Block - Malicious Site
+## Purpose
+Block notification to be shown to the user if a request to a site detected as being malicious, high risk, or used for phishing occurs.
+
+Examples:
+* shakazahn[.]ru [Malsite]
+* javsheks[.]mom [Malware Distribution Point]
+* saptheurbanyard[.]accounts-receivable[.]ltd [Malsite]
+* www[.]monacis[.]it/ [Phishing/Fraud]
+
+[PhishTank](https://phishtank.org/phish_search.php?valid=y&active=y&Search=Search) can also be used for live phishing sites.
+
+## Preview
+TBA
+
+## Configuration
 Template Name:
 ```
 Block - Malicious Site
