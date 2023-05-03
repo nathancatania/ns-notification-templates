@@ -6,6 +6,8 @@ An email notification that can be sent to a user when it has been detected that 
 > 
 > -- Unknown
 
+Note: You will need to change the `mailto` address and any other included links in the message body.
+
 ## Preview
 ![preview](https://i.imgur.com/VitTcci.png)
 
@@ -30,7 +32,7 @@ The file you created or modified within {{NS_APP}} for the following documents h
 
 <b>Security Operations has detected that this file contained highly sensitive API keys and/or Private SSH Keys that cannot be stored outside of approved systems or in plaintext.</b>
 
-If you believe this is a mistake, please contact <a href="mailto:helpdesk@company.com">IT Helpdesk</a>.
+If you believe this is a mistake, please contact <a href="mailto:helpdesk@example.com">IT Helpdesk</a>.
 
 <b>Sharing secret keys requires explicit approval and oversight of the company CISO and CDO, as failure to safeguard such keys can result in catastrophic damage and leakage of confidential data.</b>
 
