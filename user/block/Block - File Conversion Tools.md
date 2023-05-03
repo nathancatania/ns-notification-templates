@@ -9,7 +9,9 @@ Examples:
 * [Png2Jpg](https://png2jpg.com/) [PNG to JPG Image Converter]
 
 ## Preview
-TBA
+![preview](https://i.imgur.com/mjgb7Kt.png)
+
+---
 
 ## Configuration
 Template Name:
@@ -34,7 +36,7 @@ Blocked. Company data isn't safe with this tool!
 
 Subtitle:
 ```
--
+
 ```
 
 Message:
@@ -65,5 +67,5 @@ Redirect_URL_Flag: False
 Redirect_URL: None
 ```
 
-Configuration Screenshot:
-TBA
+## Configuration Screenshot:
+![config](https://i.imgur.com/hz8N9Xy.png)
