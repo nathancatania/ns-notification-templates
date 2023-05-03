@@ -1,3 +1,16 @@
+# Block - Unacceptable Use
+## Purpose
+Block notification to be shown to the user if a request to a site containing adult material, or pirated content is made. Such sites are typically blocked organization wide and fall outside of the company's Acceptable Use Policy.
+
+Examples:
+* [rargb.to](https://rargb.to/) [Piracy]
+* [Sportsbet](https://www.sportsbet.com.au/) [Gambling]
+* [OnlyFans](https://onlyfans.com/) [Adult Content (link is to login page only and is safe to test with)]
+
+## Preview
+TBA
+
+## Configuration
 Template Name:
 ```
 Block - Malicious Site
