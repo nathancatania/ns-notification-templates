@@ -11,7 +11,9 @@ Examples:
 [PhishTank](https://phishtank.org/phish_search.php?valid=y&active=y&Search=Search) can also be used for live phishing sites.
 
 ## Preview
-TBA
+![preview](https://i.imgur.com/7CK6CyN.png)
+
+---
 
 ## Configuration
 Template Name:
@@ -41,7 +43,7 @@ You have been blocked from visiting {{NS_HOST}} to ensure your safety
 
 Message:
 ```
-The site you are trying to access has been detected malicious and has been blocked.
+The site you are trying to access has been detected as malicious and has been blocked.
 
 If you believe this site is safe, or if you require further information, please contact IT Helpdesk.
 ```
@@ -67,8 +69,5 @@ Redirect_URL_Flag: False
 Redirect_URL: None
 ```
 
-Preview:
-TBA
-
-Configuration Screenshot:
-TBA
+## Configuration Screenshot:
+![config](https://i.imgur.com/Gbqm22R.png)
