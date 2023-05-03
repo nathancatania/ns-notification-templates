@@ -8,12 +8,14 @@ Examples:
 * [OnlyFans](https://onlyfans.com/) [Adult Content (link is to login page only and is safe to test with)]
 
 ## Preview
-TBA
+![preview](https://i.imgur.com/Mpd5d5q.png)
+
+---
 
 ## Configuration
 Template Name:
 ```
-Block - Malicious Site
+Block - Unacceptable Use
 ```
 
 Logo:
@@ -64,8 +66,5 @@ Redirect_URL_Flag: False
 Redirect_URL: None
 ```
 
-Preview:
-TBA
-
-Configuration Screenshot:
-TBA
+## Configuration Screenshot:
+![config](https://i.imgur.com/p3PtROz.png)
