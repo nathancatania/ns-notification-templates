@@ -8,7 +8,9 @@ Examples:
 * [PhishTank](https://phishtank.org/phish_search.php?valid=y&active=y&Search=Search) can be used for live phishing sites (use with caution!).
 
 ## Preview
-TBA
+![preview](https://i.imgur.com/C4ffl1M.png)
+
+---
 
 ## Configuration
 Template Name:
@@ -28,23 +30,23 @@ Stripe Color:
 
 Title:
 ```
-This website just tried to steal your password 🕵️
+Blocked. This website can steal passwords 🕵️
 ```
 
 Subtitle:
 ```
-Don't worry, you're protected, but you should be extra careful!
+Don't worry, you're protected, but you should be careful!
 ```
 
 Message:
 ```
-A phishing attack is when a scammer tries to trick you into revealing your password, and they will do so by tricking you into entering it into a webpage that looks legitimate, but actually isn't.
+A phishing attack is when a scammer tries to trick you into revealing your password, and they will do so by tricking you into entering it into a login page that looks legitimate, but actually isn't.
 
-This website just attempted steal your password, but the company system was able to stop it and protect you.
+This website has been detected as one of these fraudulant pages, and so the company system has blocked access to protect you.
 
 You will only ever be asked to enter your company password by Microsoft at the website https://login.microsoftonline.com. You should NEVER sign-up for services using your corporate email without obtaining permission from IT. This is to ensure that the data that our company holds is kept safe.
 
-If you are ever in doubt, please raise a ticket with Helpdesk and they will help you.
+If you are ever in doubt, please raise a ticket with Helpdesk and they will assist you.
 ```
 
 Footer:
@@ -68,8 +70,5 @@ Redirect_URL_Flag: False
 Redirect_URL: None
 ```
 
-Preview:
-TBA
-
-Configuration Screenshot:
-TBA
+## Configuration Screenshot:
+![config](https://i.imgur.com/br442OZ.png)
