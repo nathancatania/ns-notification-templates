@@ -1,6 +1,6 @@
 # Block - Malicious Site
 ## Purpose
-Block notification to be shown to the user if a request to a site detected as being malicious, high risk, or used for phishing occurs.
+Block notification to be shown to the user if a request to a malicious or high-risk site occurs.
 
 Examples:
 * shakazahn[.]ru [Malsite]
