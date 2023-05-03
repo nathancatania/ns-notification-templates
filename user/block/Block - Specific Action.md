@@ -6,7 +6,9 @@ Example:
 * Browse to Dropbox is allowed, but Upload is blocked.
 
 ## Preview
-TBA
+![preview](https://i.imgur.com/6QzEnAP.png)
+
+---
 
 ## Configuration
 Template Name:
@@ -36,7 +38,7 @@ This action is disabled
 
 Message:
 ```
-For security reasons, the ability to {{NS_ACTIVITY}} within {{NS_APP}} has been disabled. This assists us in securing sensitive information.
+For security reasons, the ability to {{NS_ACTIVITY}} within {{NS_APP}} has been disabled. This assists us in securing sensitive company information.
 
 You can safely close this message.
 
@@ -64,8 +66,5 @@ Redirect_URL_Flag: False
 Redirect_URL: None
 ```
 
-Preview:
-TBA
-
-Configuration Screenshot:
-TBA
+## Configuration Screenshot:
+![config](https://i.imgur.com/O0QVrlN.png)
