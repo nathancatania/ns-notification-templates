@@ -1,3 +1,16 @@
+# Block - Phishing Attempt [Corporate]
+## Purpose
+Block notification to be shown to a corporate user if a request to a known or suspected phishing site is detected.
+
+This notification aims to educate the user on phishing, how to detect it, and what to do to seek help in the future if they are unsure.
+
+Examples:
+* [PhishTank](https://phishtank.org/phish_search.php?valid=y&active=y&Search=Search) can be used for live phishing sites (use with caution!).
+
+## Preview
+TBA
+
+## Configuration
 Template Name:
 ```
 Block - Phishing Attempt
