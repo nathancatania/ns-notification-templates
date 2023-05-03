@@ -10,7 +10,9 @@ Examples:
 Note: You should change `OneDrive` and `Sharepoint` in the subtitle and message body to reference the company's sanctioned file sharing service if different, eg: GDrive, Dropbox.
 
 ## Preview
-TBA
+![preview](https://i.imgur.com/BwlCOKV.png)
+
+---
 
 ## Configuration
 Template Name:
@@ -66,8 +68,5 @@ Redirect_URL_Flag: False
 Redirect_URL: None
 ```
 
-Preview:
-TBA
-
-Configuration Screenshot:
-TBA
+## Configuration Screenshot:
+![config](https://i.imgur.com/J3YG8A0.png)
