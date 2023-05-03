@@ -9,7 +9,9 @@ Examples:
 
 
 ## Preview
-TBA
+![preview](https://i.imgur.com/ksEs0yp.png)
+
+---
 
 ## Configuration
 Template Name:
@@ -84,5 +86,5 @@ Redirect_URL_Flag: False
 Redirect_URL: None
 ```
 
-Configuration Screenshot:
-TBA
+## Configuration Screenshot:
+![config](https://i.imgur.com/ZGY5eWL.png)
