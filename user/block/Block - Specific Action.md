@@ -1,3 +1,14 @@
+# Block - Specific Action
+## Purpose
+A generic block notification to be shown to the user if a specific action or activity they are performing is blocked.
+
+Example:
+* Browse to Dropbox is allowed, but Upload is blocked.
+
+## Preview
+TBA
+
+## Configuration
 Template Name:
 ```
 Block - Specific Action
