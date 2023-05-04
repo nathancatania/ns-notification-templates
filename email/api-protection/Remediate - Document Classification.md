@@ -41,3 +41,9 @@ Thank you for your understanding. Together, we can help keep our company secure.
 
 ## Configuration Screenshot:
 ![config](https://i.imgur.com/49t9GRU.png)
+
+---
+
+## Example Policy
+
+![example-policy](https://i.imgur.com/d5z096R.png)

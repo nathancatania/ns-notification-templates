@@ -91,3 +91,20 @@ Redirect_URL: None
 
 ## Configuration Screenshot:
 ![config](https://i.imgur.com/8e1XTDX.png)
+
+---
+
+## Example Policy
+* Under **Policies > Web**, create a new custom URL category that includes the categories:
+  * Miscellaneous
+  * Uncategorized
+  * Newly Registered Domain
+  * Newly Observed Domain
+  * Call this custom category `Potentially Malicious Sites`.
+  * Important: Make sure you include in a custom URL List as a bypass/whitelist for this custom category any company sites that might be caught in the above categories. `autodiscover.company.com` is a typical one.
+* Under Policies > Real-time Protection, create a new policy.
+  * For the `Destination` section, select `Category` and then the `Potentially Malicious Sites` category created above.
+  * For `Activities`, select `Browse`.
+  * For the `Profile and Action` section, select `User Alert` as the action and `Coach - Justify Access to a Potentially Malicious Site` as the template.
+
+![example-policy](https://i.imgur.com/HWdgM4I.png)

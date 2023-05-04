@@ -88,3 +88,15 @@ Redirect_URL: None
 
 ## Configuration Screenshot:
 ![config](https://i.imgur.com/ZGY5eWL.png)
+
+---
+
+## Example Policy
+* Under Policies > Real-time Protection, create a new policy.
+  * For the `Destination` section, select `Category`, `App Instance`, `Cloud App`, or `Application`, and then select the category, instance, or app definition that you wish to restrict data exporting from.
+  * For `Activities`, select `Download`.
+  * For the `Profile and Action` section, select `User Alert` as the action and `Coach - Justify reason for data export` as the template.
+  * Pro-tip: Apply a DLP Profile to this rule so that only sensitive data being exported is targeted.
+  * Pro-tip #2: You can target this policy at specific AD Groups or employees above a specific risk level under the `Source` section.
+
+![example-policy](https://i.imgur.com/xGtPcRO.png)

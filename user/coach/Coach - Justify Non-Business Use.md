@@ -84,3 +84,13 @@ Redirect_URL: None
 
 ## Configuration Screenshot:
 ![config](https://i.imgur.com/la4axKc.png)
+
+---
+
+## Example Policy
+* Under Policies > Real-time Protection, create a new policy.
+  * For the `Destination` section, select `Category` and then any categories that you might want to allow selective non-business access to. Eg: `Gambling`.
+  * For `Activities`, select `Browse`.
+  * For the `Profile and Action` section, select `User Alert` as the action and `Coach - Non-Business Use` as the template.
+
+![example-policy](https://i.imgur.com/tmfFx6E.png)

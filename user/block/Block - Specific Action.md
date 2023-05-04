@@ -68,3 +68,13 @@ Redirect_URL: None
 
 ## Configuration Screenshot:
 ![config](https://i.imgur.com/O0QVrlN.png)
+
+---
+
+## Example Policy
+* Under Policies > Real-time Protection, create a new policy.
+  * For the `Destination` section, select either `Category`, `App Instance`, `Cloud App`, or `Application` and select an approproate category, instance, or app definition.
+  * For `Activities`, select the action(s) you wish to block; eg: `Upload` and `Share`.
+  * For the `Profile and Action` section, select `Block` as the action and `Block - Specific Action` as the template.
+
+![example-policy](https://i.imgur.com/b2XgGml.png)

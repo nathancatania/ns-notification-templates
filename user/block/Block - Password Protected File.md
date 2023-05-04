@@ -65,3 +65,26 @@ Redirect_URL: None
 
 ## Configuration Screenshot:
 ![config](https://i.imgur.com/zqoalHj.png)
+
+---
+
+## Example Policy
+* First, create a File Profile that specifically looks for password protected or encrypted files:
+   * Under Policies > File, select `New File Profile`.
+   * On the left side of the window, select `Password/Encrypted` and **CHECK** the following options:
+      * `File is password-protected`
+      * `File is protected by AIP/RMS`
+   * Click `Next`, give the profile a name (eg: `Password Protected File Profile`), and click save.
+   * Make sure that you click the `Apply Changes` button.
+* Next, create a new DLP Profile that only targets your Password Protected File profile.
+   * Under Policies > DLP, select `New Profile`.
+   * On the first screen, select the `Password Protected File Profile` you created above.
+   * Click `Next`, then `Next` again to skip to the end. Give the profile a name, eg: `Protected Files` and click `Save`.
+* Next, create a new policy to tie everything together. Go to Policies > Real-time Protection and select `New Policy`.
+   * For the `Destination` section, select `Category` and then select every category (to target the entire internet) or specific categories like `Cloud Storage` and `Webmail`.
+   * For `Activities`, select `Upload`.
+   * For the `Profile and Action` section, select `Block` as an action, and select the `Block - Password Protected File` template.
+   * Select `Add Profile` then `DLP Profile`, then select the `Protected Files` DLP Profile you created above.
+
+
+![example-policy](https://i.imgur.com/2FAqPzO.png)

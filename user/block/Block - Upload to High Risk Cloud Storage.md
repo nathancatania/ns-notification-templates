@@ -70,3 +70,15 @@ Redirect_URL: None
 
 ## Configuration Screenshot:
 ![config](https://i.imgur.com/J3YG8A0.png)
+
+---
+
+## Example Policy
+* Under Policies > Real-time Protection, create a new policy.
+  * For the `Destination` section, select `Category` and then the `Cloud Storage` category.
+  * For `Activities` select `Upload`.
+  * Click `Add Criteria & Constraints`, and select `App Tag`. Select the `Unsanctioned` app tag.
+  * Click `Add Criteria & Constraints` again, and select `CCL`. Select the CCL/Risk levels you wish to block, eg: Medium, Low, and Poor.
+  * For the `Profile and Action` section, select `Block` as the action and `Block - Upload to High Risk Cloud Storage` as the template.
+
+![example-policy](https://i.imgur.com/4z8lFiy.png)

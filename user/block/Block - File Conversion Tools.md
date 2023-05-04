@@ -69,3 +69,26 @@ Redirect_URL: None
 
 ## Configuration Screenshot:
 ![config](https://i.imgur.com/hz8N9Xy.png)
+
+---
+
+## Example Policy
+* There are two different policies where this template could be useful:
+   * Completely blocking unsanctioned File Conversion tools (ILovePDF, SmallPDF, etc), OR
+   * Allowing the use of these tools, but blocking company data from being uploaded there.
+* Under Policies > Real-time Protection, create a new policy.
+  * For the `Destination` section, select `Category` and then the `File Converter`.
+  * Click `Add Criteria & Constraints` and select `App Tag`. Select `Unsanctioned` from the list. This will only target apps that are not sanctioned by the company.
+  * For Activities:
+     * If you want to completely hard block these sites, select `Browse` as an activity.
+     * If you want to allow these use of these sites but block company data being uploaded to them, select `Upload` as an activity.
+  * For the `Profile and Action` section, select `Block` as an action, and select the `Block - File Conversion Tools` template.
+  * If you want to hard block these sites, then you are finished. If you want to allow them, but block company data, select `Add Profile` then `DLP Profile`, then select the sensitive content to match on.
+
+Hard block:
+
+![example-policy](https://i.imgur.com/drNiPc9.png)
+
+Block only on upload of sensitive data:
+
+![example-policy2](https://i.imgur.com/D1FSRn7.png)

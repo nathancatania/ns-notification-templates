@@ -43,3 +43,9 @@ If you would like to understand the types of data that are acceptable/unacceptab
 
 ## Configuration Screenshot:
 ![config](https://i.imgur.com/GWplsZn.png)
+
+---
+
+## Example Policy
+
+![example-policy](https://i.imgur.com/WFZjTL7.png)

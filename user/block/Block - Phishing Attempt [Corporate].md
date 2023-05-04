@@ -72,3 +72,9 @@ Redirect_URL: None
 
 ## Configuration Screenshot:
 ![config](https://i.imgur.com/br442OZ.png)
+
+---
+
+## Example Policy
+
+![example-policy](https://i.imgur.com/gQ9D7HL.png)

@@ -68,3 +68,13 @@ Redirect_URL: None
 
 ## Configuration Screenshot:
 ![config](https://i.imgur.com/p3PtROz.png)
+
+---
+
+## Example Policy
+* Under **Policies > Web**, create a new custom URL category that includes all of the categories that you wish to block for unacceptable use, eg: Adult, P2P, Abuse, etc. Call this custom category `Unacceptable Use`.
+* Under Policies > Real-time Protection, create a new policy.
+  * For the `Destination` section, select `Category` and then the `Unacceptable Use` category created above.
+  * For the `Profile and Action` section, select `Block` as the action and `Block - Unacceptable Use` as the template.
+
+![example-policy](https://i.imgur.com/t3lRYED.png)

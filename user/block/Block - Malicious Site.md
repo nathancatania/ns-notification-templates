@@ -71,3 +71,13 @@ Redirect_URL: None
 
 ## Configuration Screenshot:
 ![config](https://i.imgur.com/Gbqm22R.png)
+
+---
+
+## Example Policy
+* Under **Policies > Web**, create a new custom URL category that includes all of the "_Security Risk_" categories. Call this custom category `Malicious Sites`.
+* Under Policies > Real-time Protection, create a new policy.
+  * For the `Destination` section, select `Category` and then the `Malicious Sites` category created above.
+  * For the `Profile and Action` section, select `Block` as the action and `Block - Malicious Site` as the template.
+
+![example-policy](https://i.imgur.com/6gbUfD6.png)
