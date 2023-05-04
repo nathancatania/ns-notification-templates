@@ -1,5 +1,5 @@
 # Netskope Notification Templates
-This repository contains templates for different user popups and email notifications, for both block and coachingactions, for a variety of different scenarios.
+This repository contains templates for different user popups and email notifications, for both block and coaching actions, for a variety of different scenarios.
 
 > Disclaimer: Any thoughts or opinions in this repository are my own and do not reflect those of Netskope. I am a Netskope SE who put this together in his own time to assist Netskope customers and employees. Please submit an [issue](https://github.com/nathancatania/ns-notification-templates/issues) to correct any mistakes or inaccuracies, or a PR to contribute.
 
